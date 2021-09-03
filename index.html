@@ -82,14 +82,7 @@
     barTl.fromTo(".header-line_inner", { width: 0 }, { width: "100%" });
 
     //トップの画像パララックス
-    const topTl = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".top",
-        start: "top top",
-        end: "bottom top",
-        scrub: 1,
-      },
-    });
+
     // ラベルについて https://greensock.com/docs/v3/GSAP/Timeline/addLabel()
     // アニメーションの実行タイミングの基準点になります
     topTl.addLabel("topLabel")
