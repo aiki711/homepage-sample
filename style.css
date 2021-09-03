@@ -110,7 +110,7 @@ body {
   background: url("https://picsum.photos/id/10/1920/1200") no-repeat;
   background-image: url("https://picsum.photos/id/10/1920/1200");
   background-attachment: fixed;
-  height: 50vw;
+  height: 70vw;
 }
 .sns {
   margin-top: 20vw;
