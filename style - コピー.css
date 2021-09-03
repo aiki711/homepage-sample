@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+}
+
+.header-line {
+  height: 15px;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.header-line_inner {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 20px;
+  background: #158aff;
+}
+
+.top {
+  height: 60vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.top_image {
+  position: absolute;
+  left: 0;
+  height: 50vw;
+  width: 100%;
+  background: url("https://picsum.photos/id/10/1920/1200") no-repeat;
+  background-image: url("https://picsum.photos/id/10/1920/1200");
+  background-attachment: fixed;
+}
+.top_title {
+  top: 13vw;
+  font-size: 18vw;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.18);
+  z-index: 1;
+}
+.top_title > span {
+  display: inline-block;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.card {
+  width: 70vw;
+  height: 20vw;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 1vw;
+  font-size: 1.4vw;
+}
+.card_figure {
+  width: 40vw;
+  height: 300px;
+  overflow: hidden;
+}
+.card_img {
+  width: 100%;
+  height: auto;
+}
+.card_title {
+  margin-bottom: 20px;
+}
+.card_text {
+  line-height: 1.8;
+}
+
+.bottom {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.7s ease-out;
+  overflow: hidden;
+}
+.bottom_text {
+  font-size: 12vw;
+  font-weight: bold;
+}
+.bottom.is-crossed {
+  background: #333333;
+}
+.bottom.is-crossed .bottom_text {
+  color: #ffffff;
+}
+.bw_image {
+  background: url("https://picsum.photos/id/10/1920/1200") no-repeat;
+  background-image: url("https://picsum.photos/id/10/1920/1200");
+  background-attachment: fixed;
+  height: 30vw;
+}
+.sns {
+  margin-top: 20vw;
+  margin-bottom: 20vw;
+  display: flex;
+  justify-content: center;
+  font-size: 8vw;
+  font-weight: bold;
+  height: 50vw;
+}
+.access {
+  margin-top: 20vw;
+  margin-bottom: 20vw;
+  border: 5px;
+  border-color: #333333;
+  display: flex;
+  justify-content: center;
+  font-size: 8vw;
+  font-weight: bold;
+  height: 50vw;
+}
+.contact {
+  margin-top: 20vw;
+  margin-bottom: 20vw;
+  display: flex;
+  justify-content: center;
+  font-size: 8vw;
+  font-weight: bold;
+  height: 50vw;
+}
+
+/*# sourceMappingURL=style_02.css.map */
