@@ -89,7 +89,6 @@ nav {
 .top_title > span {
   display: inline-block;
 }
-
 .section {
   height: 850px;
   width: 1000px;
@@ -199,7 +198,7 @@ nav {
   overflow: hidden;
 }
 .bottom_text {
-  font-size: 10vw;
+  font-size: 120px;
   font-weight: bold;
 }
 .bottom.is-crossed {
@@ -213,7 +212,7 @@ nav {
   background: url("https://picsum.photos/id/10/1920/1200") no-repeat;
   background-image: url("https://picsum.photos/id/10/1920/1200");
   background-attachment: fixed;
-  height: 30vw;
+  height: 400px;
 }
 .sns {
   margin-top: 0;
@@ -234,7 +233,7 @@ nav {
   justify-content: center;
   position: relative;
 }
-.top_title_sns {
+#top_title_sns {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 30px;
@@ -704,18 +703,16 @@ nav {
   text-align: center;
   padding-bottom: 0;
 }
-.access {
-  text-align: center;
+#access {
   font-size: 20px;
   font-weight: bold;
   height: 350px;
-}
-.access h1 {
-  font-size: 50px;
-}
-.access {
   line-height: 70px;
   margin-top: 60px;
+}
+#access h1 {
+  text-align: center;
+  font-size: 50px;
 }
 .root {
   display: flex;
@@ -728,21 +725,41 @@ nav {
 .content {
   padding: 0.5em;
   margin: 0.2em auto;
-  width: 50%;
+  width: 30%;
   font-size: 18px;
-}
-.contact {
-  margin-top: 20vw;
-  margin-bottom: 20vw;
-  padding-top: 20vw;
-  display: flex;
-  justify-content: center;
-  font-size: 8vw;
-  font-weight: bold;
-  height: 50vw;
 }
 .map {
   display: flex;
   justify-content: center;
   padding-bottom: 60px;
+}
+.contact_image {
+  left: 0;
+  height: 400px;
+  width: 100%;
+  background: url("https://picsum.photos/id/10/1920/1200") no-repeat;
+  background-image: url("https://picsum.photos/id/10/1920/1200");
+  background-attachment: fixed;
+}
+.contact_content {
+  padding-top: 100px;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.469);
+  color: #fff;
+}
+.contact_content h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.contact_content .mail_content {
+  padding-top: 30px;
+}
+.contact_content .mail_content .copyright {
+  margin-top: 60px;
+  font-size: 15px;
 }
